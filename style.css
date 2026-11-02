@@ -238,3 +238,10 @@ footer {
   left: 32px !important;
   width: calc(100% - 64px) !important;
 }
+/* center the page content under the top bar */
+main {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+}
