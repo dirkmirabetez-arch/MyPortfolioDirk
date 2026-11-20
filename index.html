@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -565,7 +565,7 @@ document.addEventListener('keydown',e=>{
 
 const root=document.documentElement,tb=document.getElementById('theme');
 function setTheme(t){root.dataset.theme=t;tb.textContent=t==='dark'?'☀':'☾';try{localStorage.setItem('theme',t)}catch(e){}}
-setTheme('dark');/* always start in dark */
+setTheme('light');/* always start in light (morning) */
 tb.onclick=()=>setTheme(root.dataset.theme==='dark'?'light':'dark');
 
 const toast=document.getElementById('toast');
